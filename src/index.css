@@ -1,0 +1,98 @@
+
+*{
+ text-align: center;
+ background: rgb(230, 205, 156);
+}
+.answers{
+ width: 500px;
+ min-height: 200px;
+ margin: 30px auto;
+}
+
+li{
+ list-style: none;
+ font-size: 20px;
+ margin: 15px;
+ background: red;
+}
+
+
+
+.next{
+ width: 150px;
+ height: 30px;
+ background: white;
+ color: black;
+}
+
+.divbutton{
+margin: 5px auto;
+min-width: 500px;
+min-height: 100px;
+}
+
+.divbutton button{
+ width: 100%;
+ min-height: 50px;
+ margin: 10px;
+ font-family: sans-serif;
+ font-weight:600;
+ letter-spacing: 2px;
+}
+
+.end{
+ width: 100vh;
+ height: 100vh;
+ background: black;
+}
+
+h1,h2{
+ font-family: 'Courier New', Courier, monospace;
+ letter-spacing: 3px;
+}
+
+h1{
+ margin: 0 40px;
+}
+
+button{
+ background: rgb(105, 95, 95);
+ border: 2px solid rgb(55, 54, 61);
+ border-radius: 3px;
+ font-size: 20px;
+ padding: 15px;
+}
+
+button:hover{
+ 
+transition: 0.2s ease-in;
+transform: scaleX(0.9);
+transform: scaleY(0.8);
+}
+
+span{
+ font-size: 35px;
+ color:rgb(107, 62, 62);
+}
+
+.green{
+ background: green;
+ border: green;
+ color: white;
+}
+.red{
+ background: rgba(255, 0, 0, 1);
+ border: rgba(255, 0, 0, 1);
+ color: white;
+}
+.popuptext {
+ margin-bottom: 10px;
+}
+
+h3{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 25px;
+}
+.refresh{
+ margin-top: 40px;
+}
